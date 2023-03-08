@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 24px;
+}
+
+.light-mode {
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 20vh;
+  width: 20vw;
+  padding: 15px;
+  flex-wrap: wrap;
+  border: 2px solid #000000;
+  border-radius: 12px;
+}
+.dark-mode {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 20vh;
+  width: 20vw;
+  padding: 15px;
+  flex-wrap: wrap;
+  border: 2px solid #000000;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
+button {
+  background-color: #ffffff;
+  color: #000000;
+  height: 35px;
+  width: 90px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
